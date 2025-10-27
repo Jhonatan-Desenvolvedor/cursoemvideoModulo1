@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDIAS HTML</title>
+</head>
+<body>
+    <h1>IMAGENS DINAMICAS</h1><!--tipo de responsividade para imagens-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/m.jpg" type="image/jpg">
+        <img src="imagens/g.jpg" alt="Imagem flexível">
+    </picture>
+    <h1>AUDIO NO SITE</h1>
+    <!--<audio src="midia/voz.opus" controls></audio>-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/voz.opus" controls type="audio/ogg">
+    </audio>
+</body>
+</html>
